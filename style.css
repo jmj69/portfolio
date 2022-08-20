@@ -7,8 +7,11 @@ body{
     background: url("./public/DSC01789.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 10%;
-}
+    background-position: right 55% bottom 75%;
+
+  
+ 
+    }
 
 .cv
 {   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -69,7 +72,9 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     text-align:start;
+    padding-top: 150px;
     padding-left: 100px;
+    padding-right: -200px;
      
 }
 
@@ -80,7 +85,7 @@ min-height: max-content;
 }
 
 nav{
-    background-color: rgba(0,0,0,0.5);
+  
     text-align-last: right;
 }
 
@@ -90,7 +95,9 @@ footer{
 
 #logos{
 
-    padding-top: 600px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,25 +109,50 @@ footer{
 #html{
     height: 129px;
     width: 129px;
+    cursor: pointer;
 }
 
 #css{
     height: 150px;
     width: 150px;
     padding-left: 70px;
+    cursor: pointer;
 }
 
 #js{
-    height: 150px;
-    width: 280px;
+    height: 140px;
+    width: 260px;
+    cursor: pointer;
 }
 
 #react{
     height: 150px;
     width: 150px;
+    cursor: pointer;
 }
 
 #firebase{
     height: 190px;
     width: 240px;
+    cursor: pointer;
+}
+
+#intro{
+    height: 500px;
+    width: 320px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 745px;
+    margin-top: 100px;
+}
+
+#bandeau{
+    display: flex;
+
+}
+
+.ref{
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
