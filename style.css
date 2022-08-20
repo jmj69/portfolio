@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("./public/DSC01789.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 10%;
+}
+a
+{   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+#contenu{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align:start;
+    
+}
+
+
+section{
+width: 100%;
+min-height: max-content;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.5);
+    text-align-last: right;
+}
+
+footer{
+    color: white;
+}
